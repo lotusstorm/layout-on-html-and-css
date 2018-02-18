@@ -1,0 +1,152 @@
+.arrivals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.arrivals__name, .arrivals__span {
+    font: bold 36px Ubuntu;
+    margin: 45px 0 30px;
+    color: var(--second-text-color);
+}
+
+.arrivals__span {
+    color: var(--span-color);
+}
+
+.arrivals__list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 1170px;
+}
+
+.arrivals__block {
+    display: flex;
+    flex-flow: row wrap;
+    width: 570px;
+}
+
+.arrivals__item {
+    margin-bottom: 26px;
+}
+
+.arrivals__img-big {
+    width: 570px;
+    height: 570px;
+}
+
+.arrivals__img-small {
+    width: 270px;
+    height: 270px;
+}
+
+.arrivals__img {
+    width: 570px;
+    height: 270px;
+}
+
+.arrivals__block:nth-child(1) .arrivals__item:nth-child(2) {
+    display: none;
+}
+
+.arrivals__block:nth-child(1) .arrivals__item:nth-child(4) {
+    margin-left: 30px;
+}
+
+.arrivals__about {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    margin: 18px 20px;
+}
+
+.arrivals__description {
+    font: normal 18px Ubuntu;
+    color: var(--second-text-color);
+}
+
+.arrivals__price {
+    font: bold 30px Ubuntu;
+    color: var(--second-text-color);
+}
+
+.arrivals__btn {
+    font: bold 16px Ubuntu;
+    color: var(--first-text-color);
+    border: none;
+    width: 250px;
+    height: 50px;
+    background-color: var(--main-bg-color);
+    outline: none;
+}
+
+.arrivals__btn:hover {
+    background-color: var(--hover-active-color);
+}
+
+@media (max-width: 1180px) {
+    .arrivals__list {
+        justify-content: center;
+        width: 700px;
+    }
+}
+
+@media (max-width: 760px) {
+    .arrivals__list {
+        justify-content: center;
+        width: 320px;
+    }
+
+    .arrivals__block {
+        justify-content: center;
+        width: 320px;
+    }
+
+    .arrivals__item {
+        margin-bottom: 10px;
+    }
+
+    .arrivals__block:nth-child(1) .arrivals__item:nth-child(2) {
+        display: block;
+    }
+
+    .arrivals__block:nth-child(1) .arrivals__item:nth-child(4) {
+        margin-left: 10px;
+    }
+
+    .arrivals__img-big {
+        width: 300px;
+        height: 300px;
+    }
+
+    .arrivals__img-small {
+        width: 145px;
+        height: 145px;
+    }
+
+    .arrivals__img {
+        width: 300px;
+        height: 150px;
+    }
+
+    .arrivals__block:nth-child(2) {
+        display: none;
+    }
+
+    .arrivals__about {
+        width: 140px;
+        margin: 10px 10px;
+    }
+
+    .arrivals__description {
+        font: normal 16px Ubuntu;
+        color: var(--second-text-color);
+    }
+
+    .arrivals__price {
+        font: bold 25px Ubuntu;
+        color: var(--second-text-color);
+    }
+}

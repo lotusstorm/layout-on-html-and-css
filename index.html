@@ -1,0 +1,466 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdn.plyr.io/2.0.18/plyr.css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body class="body">
+<wrapper class="body__wrapper">
+    <div class="home">
+        <div class="panel">
+            <div class="panel__wrapper">
+                <div class="config">
+                    <select class="config__language">
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                    </select>
+                    <select class="config__currency">
+                        <option value="ENG">ENG</option>
+                        <option value="RUS">RUS</option>
+                    </select>
+                </div>
+                <div class="authorisation">
+                    <p class="authorisation__login">LOG IN</p>
+                    <span class="authorisation__delimiter">OR</span>
+                    <p class="authorisation__sign">SIGN UP</p>
+                </div>
+            </div>
+        </div>
+        <header class="header">
+            <a href="#" class="main-logo"><img src="img/main-logo.png" alt="" class="main-logo__img"></a>
+            <wrapper class="header__wrapper">
+                <ul class="navigation">
+                    <li class="navigation__item" data-name="store">STORES</li>
+                    <li class="navigation__item" data-name="products">PRODUCTS</li>
+                    <li class="navigation__item" data-name="projects">PROJECTS</li>
+                    <li class="navigation__item" data-name="blog">BLOG</li>
+                    <li class="navigation__item" data-name="about-us">ABOUT US</li>
+                </ul>
+                <div class="icons">
+                    <img src="img/icons/search.png" alt="" class="icons__search">
+                    <img src="img/icons/cart.png" alt="" class="icons__cart">
+                    <img src="img/icons/list.png" alt="" class="icons__list">
+                </div>
+            </wrapper>
+        </header>
+        <div class="store">
+            <ul class="store__list">
+                <li class="store__item store__item_active" data-name="bedroom"><img src="img/icons/bedroom.png" alt="" class="store__img"><p class="store__description">BEDROOM</p></li>
+                <li class="store__item" data-name="bathroom"><img src="img/icons/bathroom-1.png" alt="" class="store__img"><p class="store__description">BATHROOM</p></li>
+                <li class="store__item" data-name="living-room"><img src="img/icons/living-room.png" alt="" class="store__img"><p class="store__description">LIVING ROOM</p></li>
+                <li class="store__item" data-name="kitchen"><img src="img/icons/kitchen.png" alt="" class="store__img"><p class="store__description">KITCHEN</p></li>
+                <li class="store__item" data-name="office"><img src="img/icons/office.png" alt="" class="store__img"><p class="store__description">OFFICE</p></li>
+                <li class="store__item" data-name="for-children"><img src="img/icons/for-children.png" alt="" class="store__img"><p class="store__description">FOR CHILDREN</p></li>
+            </ul>
+            <div class="store__slider">
+                <p class="store__content">FIND YOUR DREAM INTERIOR</p>
+                <button class="store__btn store__btn_active">SEE ALL</button>
+            </div>
+        </div>
+    </div>
+    <content class="content">
+        <div class="products">
+            <h1 class="products__name"><span class="products__span">OUR</span> PRODUCTS</h1>
+            <div class="category">
+                <div class="flag flag_acive"><img src="img/icons/all.png" alt="" class="flag__img"><p class="flag__description flag__description_active">ALL</p></div>
+                <ul class="category__list">
+                    <li class="category__item"><img src="img/icons/furniture.png" alt="" class="category__img"><p class="category__description">FURNITURE</p></li>
+                    <li class="category__item"><img src="img/icons/Bathroom.png" alt="" class="category__img"><p class="category__description">BATHROOM</p></li>
+                    <li class="category__item"><img src="img/icons/lightning.png" alt="" class="category__img"><p class="category__description">LIGHTNING</p></li>
+                    <li class="category__item"><img src="img/icons/accessories.png" alt="" class="category__img"><p class="category__description">ACCESSORIES</p></li>
+                    <li class="category__item category__item_active"><img src="img/icons/dishes.png" alt="" class="category__img"><p class="category__description category__description_active">DISHES</p></li>
+                    <li class="category__item"><img src="img/icons/textile.png" alt="" class="category__img"><p class="category__description">TEXTILE</p></li>
+                </ul>
+            </div>
+            <div class="all-btn">
+                <h2 class="all-btn__description">ALL</h2>
+                <img src="img/icons/arrow3.svg" alt="" class="all-btn__img">
+            </div>
+            <div class="products__list">
+                <div class="product">
+                    <img src="img/1.png" alt="" class="product__img">
+                    <div class="product__about">
+                        <div class="product__description">
+                            <ul class="rating">
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star.png" alt="" class="rating__img"></li>
+                            </ul>
+                            <p class="product__name">Soft Home Chair</p>
+                            <h1 class="product__price">$45</h1>
+                        </div>
+                        <div class="product__btn">
+                            <button class="buy-btn">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/2.png" alt="" class="product__img">
+                    <div class="product__about">
+                        <div class="product__description">
+                            <ul class="rating">
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star.png" alt="" class="rating__img"></li>
+                            </ul>
+                            <p class="product__name">Metal pyramid lamp</p>
+                            <h1 class="product__price">$25</h1>
+                        </div>
+                        <div class="product__btn">
+                            <button class="buy-btn">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/3.png" alt="" class="product__img">
+                    <div class="product__about">
+                        <div class="product__description">
+                            <ul class="rating">
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star.png" alt="" class="rating__img"></li>
+                            </ul>
+                            <p class="product__name">Mellon soft pillow</p>
+                            <h1 class="product__price">$10</h1>
+                        </div>
+                        <div class="product__btn">
+                            <button class="buy-btn">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/4.png" alt="" class="product__img">
+                    <div class="product__about">
+                        <div class="product__description">
+                            <ul class="rating">
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                            </ul>
+                            <p class="product__name">Mini Metal Retro Alarm
+                            </p>
+                            <h1 class="product__price">$5</h1>
+                        </div>
+                        <div class="product__btn">
+                            <button class="buy-btn">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/5.png" alt="" class="product__img">
+                    <div class="product__about">
+                        <div class="product__description">
+                            <ul class="rating">
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star.png" alt="" class="rating__img"></li>
+                            </ul>
+                            <p class="product__name">Triangular wooden shelf</p>
+                            <h1 class="product__price">$20</h1>
+                        </div>
+                        <div class="product__btn">
+                            <button class="buy-btn">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/6.png" alt="" class="product__img">
+                    <div class="product__about">
+                        <div class="product__description">
+                            <ul class="rating">
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                            </ul>
+                            <p class="product__name">Soft bath mat</p>
+                            <h1 class="product__price">$25</h1>
+                        </div>
+                        <div class="product__btn">
+                            <button class="buy-btn">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/7.png" alt="" class="product__img">
+                    <div class="product__about">
+                        <div class="product__description">
+                            <ul class="rating">
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star.png" alt="" class="rating__img"></li>
+                            </ul>
+                            <p class="product__name">Soup beige plate</p>
+                            <h1 class="product__price">$3</h1>
+                        </div>
+                        <div class="product__btn">
+                            <button class="buy-btn">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/8.png" alt="" class="product__img">
+                    <div class="product__about">
+                        <div class="product__description">
+                            <ul class="rating">
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star.png" alt="" class="rating__img"></li>
+                            </ul>
+                            <p class="product__name">Polygonal ceramic vase</p>
+                            <h1 class="product__price">$20</h1>
+                        </div>
+                        <div class="product__btn">
+                            <button class="buy-btn">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <img src="img/9.png" alt="" class="product__img">
+                    <div class="product__about">
+                        <div class="product__description">
+                            <ul class="rating">
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                                <li class="rating__star"><img src="img/icons/star-act.png" alt="" class="rating__img"></li>
+                            </ul>
+                            <p class="product__name">Bean bag chair green</p>
+                            <h1 class="product__price">$55</h1>
+                        </div>
+                        <div class="product__btn">
+                            <button class="buy-btn">BUY NOW</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="products__btn">SEE MORE</button>
+        </div>
+        <div class="arrivals">
+            <h1 class="arrivals__name"><span class="arrivals__span">NEW</span> ARRIVALS</h1>
+            <div class="arrivals__list">
+                <ul class="arrivals__block">
+                    <li class="arrivals__item">
+                        <div class="arrivals__about">
+                            <p class="arrivals__description">Soft blue chair</p>
+                            <span class="arrivals__price">$65</span>
+                        </div>
+                        <img src="img/arrivals 1.png" alt="" class="arrivals__img-big">
+                    </li>
+                    <li class="arrivals__item">
+                        <div class="arrivals__about">
+                            <p class="arrivals__description">Bathroom set</p>
+                            <span class="arrivals__price">$15</span>
+                        </div>
+                        <img src="img/arrivals 4.png" alt="" class="arrivals__img">
+                    </li>
+                    <li class="arrivals__item">
+                        <div class="arrivals__about">
+                            <p class="arrivals__description">Wood Wall Clock</p>
+                            <span class="arrivals__price">$15</span>
+                        </div>
+                        <img src="img/arrivals 3.png" alt="" class="arrivals__img-small">
+                    </li>
+                    <li class="arrivals__item">
+                        <div class="arrivals__about">
+                            <p class="arrivals__description">Whistling kettle </p>
+                            <span class="arrivals__price">$25</span>
+                        </div>
+                        <img src="img/arrivals 2.png" alt="" class="arrivals__img-small">
+                    </li>
+                </ul>
+                <ul class="arrivals__block">
+                    <li class="arrivals__item">
+                        <div class="arrivals__about">
+                            <p class="arrivals__description">Bathroom set</p>
+                            <span class="arrivals__price">$15</span>
+                        </div>
+                        <img src="img/arrivals 4.png" alt="" class="arrivals__img">
+                    </li>
+                    <li class="arrivals__item">
+                        <div class="arrivals__about">
+                            <p class="arrivals__description">Metal Lamp</p>
+                            <span class="arrivals__price">$5</span>
+                        </div>
+                        <img src="img/arrivals 5.png" alt="" class="arrivals__img">
+                    </li>
+                    <li class="arrivals__item">
+                        <div class="arrivals__about">
+                            <p class="arrivals__description">Stripped bed linen</p>
+                            <span class="arrivals__price">$7</span>
+                        </div>
+                        <img src="img/arrivals 6.png" alt="" class="arrivals__img">
+                    </li>
+                </ul>
+            </div>
+            <button class="arrivals__btn">SEE MORE</button>
+        </div>
+        <div class="projects">
+            <h1 class="projects__name"><span class="projects__span">OUR</span> PROJECTS</h1>
+            <div class="video">
+                <wrapper class="video__wrapper">
+                    <div class="video__block">
+                        <video poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg" controls>
+                            <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="video__block">
+                        <video poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg" controls>
+                            <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.mp4" type="video/mp4">
+                        </video>
+                        <video poster="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.jpg" controls>
+                            <source src="https://cdn.plyr.io/static/demo/View_From_A_Blue_Moon_Trailer-HD.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </wrapper>
+            </div>
+            <div class="about">
+                <p class="about__description">OUR TOP DESIGN INTERIORS FULL VIDEO REVIEW</p>
+                <div class="about__icons">
+                    <p class="about__data">Apr 7, 2:20 pm</p>
+                    <div class="about__like"><img src="img/icons/like.png" alt="" class="about__img">105</div>
+                    <div class="about__comments"><img src="img/icons/comments.png" alt="" class="about__img">15 comments</div>
+                </div>
+            </div>
+            <div class="comments">
+                <wrapper class="comments__wrapper">
+                    <div class="comments__header">
+                        <p class="comments__counter">15 comments</p>
+                        <img src="img/icons/arrow2.svg" alt="" class="comments__img">
+                    </div>
+                    <div class="comments__list">
+                        <div class="comment">
+                            <img src="img/Colin.png" alt="" class="comment__img">
+                            <section class="comment__section">
+                                <h2 class="comment__header">Tyler Warren <span class="comment__data">10:45, 8 Apr 17</span></h2>
+                                <p class="comment__content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Thanks, Tyler W.</p>
+                                <p class="comment__reply">Reply</p>
+                            </section>
+                        </div>
+                        <div class="comment">
+                            <img src="img/Cara.png" alt="" class="comment__img">
+                            <section class="comment__section">
+                                <h2 class="comment__header">Cara Taylor <span class="comment__data">10:45, 8 Apr 17</span></h2>
+                                <p class="comment__content">The comment above by Tyler encouraged me to add a сlass aptent taciti sociosqu ad litora torquent per
+                                    conubia nostra, per inceptos himenaeos. Vestibulum ut magna consequat ex interdum ullamcorper eget
+                                    non turpis.</p>
+                                <p class="comment__reply">Reply</p>
+                            </section>
+                        </div>
+                        <div class="comment">
+                            <img src="img/Butler.png" alt="" class="comment__img">
+                            <section class="comment__section">
+                                <h2 class="comment__header">Mathew McDonald <span class="comment__data">10:45, 8 Apr 17</span></h2>
+                                <p class="comment__content">Sed efficitur sodales tortor ut sollicitudin.</p>
+                                <p class="comment__reply">Reply</p>
+                            </section>
+                        </div>
+                    </div>
+                    <textarea class="textarea" placeholder="Your comment"></textarea>
+                    <div class="pagination">
+                        <p class="pagination__prev">Prev</p>
+                        <ul class="pagination__list">
+                            <li class="pagination__item">2</li>
+                            <li class="pagination__item pagination__item_active">3</li>
+                            <li class="pagination__item">4</li>
+                            <li class="pagination__item">5</li>
+                        </ul>
+                        <p class="pagination__next">Next</p></div>
+                </wrapper>
+            </div>
+        </div>
+        <div class="blog">
+            <h1 class="blog__name"><span class="blog__span">OUR</span> BLOG</h1>
+            <ul class="blog__list">
+                <li class="block">
+                    <img src="img/room1.png" alt="" class="block__img">
+                    <div class="block__about">
+                        <p class="block__description">LOREM IPSUM DOLOR SIT AMET</p>
+                        <div class="block__icons">
+                            <div class="block__like"><img src="img/icons/like.png" alt="" class="block__icon">105 likes</div>
+                            <div class="block__comments"><img src="img/icons/comments.png" alt="" class="block__icon">25 comments</div>
+                        </div>
+                        <button class="block__btn">READ MORE</button>
+                    </div>
+                </li>
+                <li class="block">
+                    <img src="img/room2.png" alt="" class="block__img">
+                    <div class="block__about">
+                        <p class="block__description">NULLAM MOLESTIE FELIS</p>
+                        <div class="block__icons">
+                            <div class="block__like"><img src="img/icons/like.png" alt="" class="block__icon">116 likes</div>
+                            <div class="block__comments"><img src="img/icons/comments.png" alt="" class="block__icon">13 comments</div>
+                        </div>
+                        <button class="block__btn">READ MORE</button>
+                    </div>
+                </li>
+                <li class="block">
+                    <img src="img/room3.png" alt="" class="block__img">
+                    <div class="block__about">
+                        <p class="block__description">VIVAMUS LACINIA LACUS</p>
+                        <div class="block__icons">
+                            <div class="block__like"><img src="img/icons/like.png" alt="" class="block__icon">210 likes</div>
+                            <div class="block__comments"><img src="img/icons/comments.png" alt="" class="block__icon">26 comments</div>
+                        </div>
+                        <button class="block__btn">READ MORE</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="about-us">
+            <h1 class="about-us__name">ABOUT <span class="about-us__span">US</span></h1>
+            <div class="about-us__locations">
+                <wrapper class="about-us__wrapper">
+                    <div class="contacts">
+                        <wrapper class="contacts__wrapper">
+                            <img class="contacts__logo" src="img/logo.png" alt="">
+                            <ul class="contacts__list">
+                                <li class="contacts__item"><img src="img/icons/placeholder.png" alt="" class="contacts__img">35 Cedar Avenue, Pasadena, California </li>
+                                <li class="contacts__item"><img src="img/icons/phone.png" alt="" class="contacts__img"><a
+                                        href="tel:8101408138659" class="contacts__link">8101408138659</a></li>
+                                <li class="contacts__item"><img src="img/icons/mail.png" alt="" class="contacts__img"><a
+                                        href="mailto:interest-shop@gmail.com" class="contacts__mail"></a>interest-shop@gmail.com</li>
+                            </ul>
+                        </wrapper>
+                    </div>
+                </wrapper>
+                <img src="img/map.png" alt="" class="about-us__img">
+            </div>
+        </div>
+    </content>
+    <footer class="footer">
+        <div class="social">
+            <a href="#" class="social__link"><img src="img/icons/fb.png" alt="" class="social__icon"></a>
+            <a href="#" class="social__link"><img src="img/icons/vk.png" alt="" class="social__icon"></a>
+            <a href="#" class="social__link"><img src="img/icons/in.png" alt="" class="social__icon"></a>
+            <a href="#" class="social__link"><img src="img/icons/ut.png" alt="" class="social__icon"></a>
+        </div>
+    </footer>
+</wrapper>
+<script src="https://cdn.plyr.io/2.0.18/plyr.js"></script>
+<script>plyr.setup();</script>
+</body>
+</html>

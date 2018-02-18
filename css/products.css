@@ -1,0 +1,238 @@
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.all-btn {
+    display: none;
+}
+
+.products__name, .products__span {
+    font: bold 36px Ubuntu;
+    margin: 33px 0 30px;
+    color: var(--second-text-color);
+}
+
+.products__span {
+    color: var(--span-color);
+}
+
+.category {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 840px;
+}
+
+.flag {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.flag__description_active {
+    color: var(--hover-active-color);
+}
+
+.flag__description {
+    font: bold 14px Ubuntu;
+    margin-top: 14px;
+}
+
+.category__list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 738px;
+}
+
+@media (max-width: 1024px) {
+    .category__list {
+        width: 600px;
+    }
+
+    .category {
+        width: 680px;
+    }
+}
+
+.category__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.category__item:last-child {
+    margin-right: 0;
+}
+
+.category__description {
+    font: normal 14px Ubuntu;
+    color: var(--second-text-color);
+    margin-top: 12px;
+}
+
+.category__description_active {
+    color: var(--hover-active-color);
+}
+
+.products__list {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 27px;
+    width: 1170px;
+}
+
+@media (max-width: 1180px) {
+    .products__list {
+        width: 750px;
+    }
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 370px;
+    height: 480px;
+    background-color: var(--second-bg-color);
+    margin-bottom: 30px;
+}
+
+.product:hover {
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.1)
+}
+
+.product__img {
+    margin-top: 20px;
+    width: 330px;
+    height: 330px;
+}
+
+.product__about {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    width: 330px;
+    margin-top: 21px;
+}
+
+.product__name {
+    font: normal 18px Ubuntu;
+    color: var(--second-text-color);
+    margin-bottom: 12px;
+}
+
+.product__price {
+    font: bold 30px Ubuntu;
+    color: var(--second-text-color);
+}
+
+.product__btn {
+    display: flex;
+    align-items: flex-end;
+}
+
+.rating {
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 3px;
+}
+
+.rating__star {
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+.buy-btn {
+    font: bold 14px Ubuntu;
+    color: var(--first-text-color);
+    border: none;
+    width: 110px;
+    height: 40px;
+    background-color: var(--main-bg-color);
+    outline: none;
+    margin-bottom: 1px;
+}
+
+.buy-btn:hover {
+    background-color: var(--hover-active-color);
+}
+
+.products__btn {
+    font: bold 16px Ubuntu;
+    color: var(--first-text-color);
+    border: none;
+    width: 250px;
+    height: 50px;
+    background-color: var(--main-bg-color);
+    outline: none;
+}
+
+.products__btn:hover {
+    background-color: var(--hover-active-color);
+}
+
+@media (max-width: 760px) {
+    .category {
+        display: none;
+    }
+
+    .products__list {
+        width: 320px;
+    }
+
+    .product {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 320px;
+        height: 420px;
+        background-color: var(--second-bg-color);
+        margin-bottom: 30px;
+    }
+
+    .product__img {
+        margin-top: 10px;
+        height: 300px;
+        width: 300px;
+    }
+
+    .product__about {
+        display: flex;
+        flex-flow: row;
+        justify-content: space-between;
+        width: 300px;
+        margin-top: 11px;
+    }
+
+    .product__name {
+        font: normal 16px Ubuntu;
+    }
+
+    .all-btn {
+        display: flex;
+        flex-flow: row;
+        align-items: center;
+        justify-content: flex-end;
+        width: 320px;
+        height: 50px;
+        background-color: var(--hover-active-color);
+    }
+
+    .all-btn__description {
+        font: bold 18px Ubuntu;
+         color: #fff;
+    }
+
+    .all-btn__img {
+        transform:rotate(180deg);
+        margin: 0 10px 0 36%;
+    }
+}
